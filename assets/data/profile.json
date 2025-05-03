@@ -1,0 +1,85 @@
+{
+  "name": "José Gonçalves",
+  "photo": "https://avatars.githubusercontent.com/u/105722921?s=400&u=ae1fca21c199ce2ad39b124b3e4672b225395c84&v=4",
+  "job": "Desenvolvedor Flutter",
+  "location": "Arcoverde - PE",
+  "phone": "(87) 99165-0328",
+  "email": "goncalvess.dev@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Flutter",
+        "logo": "https://raw.githubusercontent.com/JoseGoncalvess/Study_Web_JavaScript/refs/heads/main/project%20by%20learn/portifolio/assets/icons/languages/flutter.svg"
+      },
+      {
+        "name": "Java",
+        "logo": "https://raw.githubusercontent.com/JoseGoncalvess/Study_Web_JavaScript/refs/heads/main/project%20by%20learn/portifolio/assets/icons/languages/java.svg"
+      },
+      {
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/JoseGoncalvess/Study_Web_JavaScript/refs/heads/main/project%20by%20learn/portifolio/assets/icons/languages/python.svg"
+      },
+      {
+        "name": "Postgresql",
+        "logo": "https://raw.githubusercontent.com/JoseGoncalvess/Study_Web_JavaScript/refs/heads/main/project%20by%20learn/portifolio/assets/icons/languages/postgres.svg"
+      },
+      {
+        "name": "Spring",
+        "logo": "https://raw.githubusercontent.com/JoseGoncalvess/Study_Web_JavaScript/refs/heads/main/project%20by%20learn/portifolio/assets/icons/languages/spring.svg"
+      },
+      {
+        "name": "Typescript",
+        "logo": "https://raw.githubusercontent.com/JoseGoncalvess/Study_Web_JavaScript/refs/heads/main/project%20by%20learn/portifolio/assets/icons/languages/typescript.svg"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Comprometimento com resultados",
+      "Facilidade em Ttrabalhar em Equipe",
+      "Habituado a trabalhar sobre pressão",
+      "Organização",
+      "Criativo"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (iniciante-A1)",
+    "Espanhol (intermediário-B1)"
+  ],
+  "portfolio": [
+    {
+      "name": "My Money- App Controller Financeiro",
+      "url": "https://github.com/JoseGoncalvess/My_Money",
+      "github": true
+    },
+    {
+      "name": "Pokedex by Flutter",
+      "url": "https://github.com/JoseGoncalvess/Pokedex",
+      "github": true
+    },
+    {
+      "name": "Cep APP - Aplicativo de consulta de cep",
+      "url": "https://github.com/JoseGoncalvess/Cep_App",
+      "github": true
+    },
+    {
+      "name": "CaLculadora IMC",
+      "url": "https://github.com/JoseGoncalvess/imc_app_cal",
+      "github": true
+    },
+    {
+      "name": "Exportador de Contantos",
+      "url": "https://github.com/JoseGoncalvess/exportContactApp",
+      "github": true
+    }
+    
+  ],
+  "professionalExperience": [
+    {
+      "name": "Desenvoledor Flutter",
+      "period": "2022 - até o momento",
+      "description": "Desenvolvo aplicações com Flutter multiplataforma, fazendo uso das melhores práticas e tecnologias do mercado, com foco e soluções."
+      }
+    
+  ]
+}

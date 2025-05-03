@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" />
+    <link rel="stylesheet" href="assets/style/global.css" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="stylesheet" href="assets/style/media_query.css" />
+    <link rel="stylesheet" href="assets/style/acordeon.css" />
+    <link rel="stylesheet" href="assets/style/portifolio.css" />
+    <link rel="stylesheet" href="assets/style/experience.css" />
+    <link rel="stylesheet" href="assets/style/skills.css" />
+
+    <title>Gonçalves DEV</title>
+</head>
+
+<body>
+    <main class="container">
+        <header class="container__herader">
+            <img id="profile.img" class="photo" width="200px" alt="Foto de perfil do gonçalves" />
+            <h1 id="profile.name" class="header__title">carregando...</h1>
+            <div class="header__informations">
+                <p id="profile.position" class="person">carregando...</p>
+                <p id="profile.location" class="location">carregando...</p>
+                <p id="profile.phone" class="phone">carregando...</p>
+                <p id="profile.email" class="email">carregando...</p>
+            </div>
+        </header>
+
+        <section class="acordeon">
+            <button type="button" class="trigger">Skils</button>
+            <div class="contente__acordeon">
+                <div class="tolls__skils">
+                    <section class="tools">
+                        <h3>Habilidades profissionais:</h3>
+                        <ul id="profile.tool" class="tools__content"></ul>
+                    </section>
+
+                    <section class="personal__skills">
+                        <h3>Habilidades pessoais:</h3>
+                        <ul id="profile.skills" class="skills"></ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button type="button" class="trigger">Idiomas</button>
+            <div class="contente__acordeon">
+                <ul id="profile.languagens" class="list__contente__acordeon"></ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button type="button" class="trigger">Portifolio</button>
+            <div class="contente__acordeon open">
+                <ul id="profile.portifolio" class="portifolio__contente"></ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button type="button" class="trigger">Experiência Profissional</button>
+            <div class="contente__acordeon open">
+                <ul id="profile.experience" class="experience__contente"></ul>
+            </div>
+        </section>
+        <section class="asignature"> <img src="assets/icons/dio.svg" alt="Logo Dio"></section>
+    </main>
+    <script src="core/service/profile_service.js" defer></script>
+    <script src="core/models/profile_model.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+    <script src="assets/js/acordeon.js" defer></script>
+</body>
+
+</html>

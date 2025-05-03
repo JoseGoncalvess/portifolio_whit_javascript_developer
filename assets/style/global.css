@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+@font-face {
+    font-family: "Neue Machina";
+    src: url("../fonts/NeueMachina-Regular.otf");
+}
+
+
+body {
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.asignature{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
+
+.asignature img{
+max-width: 6rem;
+
+}

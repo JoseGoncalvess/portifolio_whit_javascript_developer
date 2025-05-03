@@ -1,0 +1,62 @@
+.tolls__skils{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tools{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.tools__content{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.tecnology img{
+    max-width: 70px;
+}
+
+.personal__skills{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 100%;
+}
+.tools h3,
+.personal__skills h3 {
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.skills{
+    list-style: disc;
+    font-weight: 300;
+
+}
+
+.skills li{
+    font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 768px)  {
+.tolls__skils{
+    grid-auto-flow: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    
+}
+
+.tools__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}

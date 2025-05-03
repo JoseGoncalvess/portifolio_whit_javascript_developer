@@ -1,0 +1,122 @@
+
+.container {
+    padding: 4rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+
+/* STYLE OF HEADER */
+.container__herader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.container__herader::after {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    
+    background-image: url("../icons/more.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.container__herader>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header__span{
+    font-family:"Neue Machina" ;
+    font-size: 1.2rem;
+}
+.header__title {
+    font-family: "Neue Machina", 'Segoe UI';
+    text-align: center;
+}
+
+.header__informations {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.header__informations>p {
+    margin: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.header__informations>p::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    /* background-image: url("../icons/location.svg"); */
+    background-size: contain;
+    display: inline-block;
+    margin-right: 0.5rem;
+    background-repeat: no-repeat;
+
+}
+.header__informations > p:hover{
+    font-weight: 600;
+}
+
+
+.header__informations .person::before {
+    background-image: url("../icons/person.svg");
+}
+
+.header__informations .email::before {
+    background-image: url("../icons/email.svg");
+}
+
+.header__informations .phone::before {
+    background-image: url("../icons/phone.svg");
+}
+
+.header__informations .location::before {
+    background-image: url("../icons/location.svg");
+}
+
+/* STYLE OF HEADER */
+
+.container::before {
+    content: "";
+    background-image: url("../img/backgroud.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80vh;
+    height: 50vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.container::after {
+    content: "";
+    background-image: url("../img/backgroud.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 187vw;
+    height: 74vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transform: rotate(180deg);
+}

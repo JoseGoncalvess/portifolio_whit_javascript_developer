@@ -1,0 +1,51 @@
+
+/* MOBILE */
+@media only screen and (min-width: 768px) {
+    .photo {
+        grid-area: photo;
+    }
+
+    .header__title {
+        grid-area: title;
+    }
+
+    .header__informations {
+        grid-area: information;
+    }
+
+    .container__herader {
+        justify-content: center;
+        display: grid;
+        grid-template-areas:
+            "photo title"
+            "photo information";
+        gap: 2.5rem;
+    }
+
+    .header__title {
+        text-align: start;
+        font-size: 2rem;
+    }
+
+    .container::after {
+        width: 178vw;
+        height: 79vh;
+
+    }
+    
+}
+
+/* 
+  DESCKTOP */
+@media only screen and (min-width: 1080px) {
+
+.container{
+    max-width: 1024px;
+    margin:  auto;
+}
+
+    .container::after {
+        width: 100vw;
+        height: 74vh;
+    }
+}

@@ -1,0 +1,40 @@
+.experience__contente{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.item__experience__contente{
+    list-style: none;
+}
+
+.item__experience__contente::before{
+    content: "";
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-repeat: no-repeat;
+    background-image: url("../icons/calendar.svg");
+    background-size: contain;
+    margin-right: 0.5rem;
+}
+
+.title__experience{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+
+.time{
+    display: block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.description{
+    text-align: justify;
+    font-weight: 300;
+    color: #ece1e1;
+}
